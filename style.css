@@ -1,0 +1,31 @@
+body{
+    background-image: url(photo-1522542550221-31fd19575a2d.jpg);
+    background-size: cover
+}
+.page {
+    height: 100vh;
+}
+.form-section {
+    width: 300px;
+    min-height: 500px;
+    background-color: #b2a5ae;
+    padding: 12px;
+    opacity: 85%;
+    color: #31486f;
+    border-radius: 8px;
+    display: none;
+}
+.tilt-in-top-1 {
+	animation: tilt-in-top-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @keyframes tilt-in-top-1 {
+    0% {
+      transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+      opacity: 0;
+    }
+    100% {
+      transform: rotateY(0deg) translateY(0) skewY(0deg);
+      opacity: 1;
+    }
+  }
+  
